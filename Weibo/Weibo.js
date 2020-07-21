@@ -51,7 +51,7 @@ const groupURL = mainURL + 'group?gid='
 // const circleURL = mainURL + 'circle' // 好友圈，待做，🐦  
 // const timelineURL = mainURL + 'friends //时间线，待做，🐦
 
-const $ = new API('Weibo', true)
+const $ = new API('Weibo')
 $.debug = $.read('debug') || false
 const CookieKey = 'WeiboNotice'
 const reg = /SUB=(\S*);/
